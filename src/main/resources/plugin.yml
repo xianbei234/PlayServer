@@ -1,0 +1,11 @@
+name: PlayServer
+version: '1.0-SNAPSHOT'
+main: org.xianbei235.playServer.PlayServer
+api-version: '1.18'
+authors: [ xianbei235 ]
+description: BC转服插件
+website: https://github.com/xianbei234
+commands:
+  play:
+    description: 连接到指定服务器
+    usage: /play <服务器名>
